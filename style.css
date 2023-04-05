@@ -1,0 +1,101 @@
+/* Définit des elements sur le corps de la page */
+body{
+    background: url(media/hd-wallpaper-3119826_1920.jpg); /* URL de l'image de fond */
+    background-size: cover; /* Redimensionne l'image pour couvrir toute la page */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image de fond */
+    
+    /* Définit la police de caractère pour le corps de la page */
+    font-family: Arial, Helvetica, sans-serif;
+    /* La propriété CSS font-family définit la police de caractère à utiliser pour un élément HTML. Cette propriété peut accepter une ou plusieurs valeurs.
+    Ainsi, dans cet exemple, si la police Arial n'est pas disponible sur l'ordinateur de l'utilisateur, le navigateur tentera de la remplacer par la police Helvetica, et si cette dernière n'est pas disponible, il utilisera une police sans-serif générique.
+     */
+}
+
+/* Style pour la classe CSS .div1 */
+.div1 {
+    max-width: 300px; /* Définit la largeur maximale de l'élément */
+    margin: auto; /* Centre l'élément horizontalement sur la page */
+    margin-top: 50px; /* Définit la marge supérieure de l'élément à 50 pixels */
+    /* height: 85%; */ /* Optionnel : Définit la hauteur de l'élément */
+    background-color: #0b0c0dbb; /* Définit la couleur de fond de l'élément */
+    text-align: center; /* Centre le texte à l'intérieur de l'élément */
+    border-radius: 12px; /* Ajoute des coins arrondis à l'élément */
+    padding: 20px; /* Ajoute de l'espace autour du contenu de l'élément */
+    color: #fff; /* Définit la couleur du texte à l'intérieur de l'élément */
+    box-sizing: border-box; /* Définit la taille totale de l'élément, incluant les bordures et les marges */
+    
+}
+
+h2{
+    color: #fff; /* Couleur du texte en blanc */
+    text-align: center; /* Alignement du texte centré */
+    font-size: 20px; /* Taille de police de 20 pixels */
+    font-weight: bold; /* Texte en gras */
+}
+
+input{
+    width: 100%; /* Largeur de l'élément de formulaire de 100% */
+    margin: 10px 0; /* Espacement en haut et en bas de l'élément de formulaire de 10 pixels */
+    outline: none; /* Supprime la bordure autour de l'élément de formulaire lorsqu'il est sélectionné */
+    background-color: transparent; /* Fond transparent de l'élément de formulaire */
+    padding: 5px 3px; /* Espacement intérieur de l'élément de formulaire */
+    font-size: 13px; /* Taille de police de 13 pixels */
+    font-weight: bold; /* Texte en gras */
+    box-sizing: border-box; /* Définit que la largeur de l'élément de formulaire inclut le rembourrage et la bordure */
+    color: #fff; /* Couleur du texte en blanc */
+    border: none; /* Supprime la bordure autour de l'élément de formulaire */
+    border-bottom: 2px #fff solid ; /* Ajoute une bordure inférieure solide de 2 pixels de couleur blanche */
+}
+
+
+/* Style pour le bouton de soumission du formulaire */
+input[type=submit]
+{
+    width: 55%; /* Largeur du bouton */
+    border-radius: 15px ; /* Bordure arrondie */
+    padding: 5px; /* Espacement entre le texte et la bordure */
+    background-color: #fff; /* Couleur de fond */
+    color: black; /* Couleur du texte */
+    font-size: 20px; /* Taille de la police */
+    border: solid 1px black; /* Bordure solide d'une épaisseur de 1px */
+    cursor: pointer; /* Curseur de la souris au survol */
+    margin: 25px 10px 0px 10px; /* Marge entre le bouton et les autres éléments */
+    transition: all 0.3s ease-in-out; /* Transition d'animation */
+}
+
+/* Style lorsque le bouton est survolé */
+input[type=submit]:hover{
+    background-color: rgba(199, 218, 220, 0.98); /* Couleur de fond modifiée */
+    transform: scale(1.1); /* Agrandissement du bouton */
+}
+
+/* Définit la taille de la police pour tous les éléments p */
+p{
+    font-size: 13px;
+}
+
+/* Définit la couleur et la police pour tous les liens */
+a{
+    color:beige;
+    font-weight: bold;
+    /* Ajoute une transition fluide de 0.3 seconde */
+    transition: all 0.3s ease-in-out;
+}
+
+/* Définit la couleur de fond lorsqu'un lien est survolé */
+a:hover{
+    background-color: rgba(0, 255, 255, 0.499);
+}
+
+/* Définit un conteneur flexible avec un alignement centré */
+.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Définit la taille de la police et souligne le texte dans un conteneur */
+.div3{
+    font-size: 20px;
+    text-decoration:underline;
+}
